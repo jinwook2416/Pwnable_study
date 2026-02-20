@@ -205,3 +205,40 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ==============================================================================
+# Pwnable / Reversing Study Specific
+# ==============================================================================
+
+# C Source Files (문제 소스 코드 유출 방지)
+*.c
+*.h
+*.cpp
+
+# Binaries & Executables (분석용 실행 파일)
+# 확장자가 없는 바이너리가 많으므로, 특정 패턴이나 폴더를 제외하는 것이 좋습니다.
+*.bin
+*.out
+*.exe
+*.o
+*.obj
+
+# GDB / Core Dump Files
+core
+core.*
+.gdb_history
+
+# IDA Pro / Analysis Files
+*.idb
+*.i64
+*.nam
+*.til
+*.id0
+*.id1
+*.id2
+*.res
+
+# Temporary & Patch Files
+*.patch
+*.diff
+*.bak
