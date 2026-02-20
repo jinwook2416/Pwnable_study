@@ -242,3 +242,5 @@ core.*
 *.patch
 *.diff
 *.bak
+
+*:Zone.Identifier
